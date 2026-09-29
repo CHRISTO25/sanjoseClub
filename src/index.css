@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-spin-slow: spin 8s linear infinite;
+  --animate-bounce-subtle: bounce 2s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
